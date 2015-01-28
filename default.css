@@ -1,0 +1,21 @@
+* {
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    color: #333333;
+}
+
+h1 {
+    font-family: Source Sans Pro;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: 900;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+
+.nav ul li + li::before {
+    content: " | ";
+}
