@@ -1,21 +1,22 @@
-* {
+body {
     font-family: Source Sans Pro;
     font-weight: 400;
     color: #333333;
-}
-body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    background-image: halftone.png;
+    background-color: 
 }
 
 
-
 h1 {
-    font-family: Source Sans Pro;
     text-shadow: #6A6A6A 1px -2px;
     font-weight: 700;
-    font-size: 70px
+    font-size: 50px;
+    margin: 0;
+    display: inline;
+    vertical-align: middle;
 }
 
 .nav {
@@ -29,4 +30,13 @@ h1 {
 
 .nav ul li + li::before {
     content: " | ";
+}
+
+.header img {
+    display: inline-block;
+    float: left;
+}
+
+.logoandtext img {
+vertical-align: middle;
 }
