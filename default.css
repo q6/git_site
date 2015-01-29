@@ -5,8 +5,9 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-image: halftone.png;
-    background-color: 
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-image: url("halftone.png");
 }
 
 
@@ -15,7 +16,7 @@ h1 {
     font-weight: 700;
     font-size: 50px;
     margin: 0;
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
 }
 
@@ -33,10 +34,21 @@ h1 {
 }
 
 .header img {
-    display: inline-block;
-    float: left;
+    vertical-align: middle;
+}
+
+.header {
+    text-align: middle;
 }
 
 .logoandtext img {
 vertical-align: middle;
+}
+
+h2 span {
+    font-weight: 900;
+}
+
+.footer {
+    text-align:center;
 }
